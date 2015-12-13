@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DbgUiRemoteBreakin - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSPEBFF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/DbgUiRemoteBreakin.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\microsoft visual studio\VC6\MyProjects\DbgUiRemoteBreakin\DbgUiRemoteBreakin.cpp"
+]
+Creating command line "cl.exe @C:\Users\walied\AppData\Local\Temp\RSPEBFF.tmp" 
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSPEC00.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/DbgUiRemoteBreakin.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\microsoft visual studio\VC6\MyProjects\DbgUiRemoteBreakin\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\walied\AppData\Local\Temp\RSPEC00.tmp" 
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSPEC01.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DbgUiRemoteBreakin.pdb" /debug /machine:I386 /out:"Debug/DbgUiRemoteBreakin.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\DbgUiRemoteBreakin.obj"
+]
+Creating command line "link.exe @C:\Users\walied\AppData\Local\Temp\RSPEC01.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DbgUiRemoteBreakin.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DbgUiRemoteBreakin.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

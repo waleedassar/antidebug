@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DebugActiveProcess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSP118A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/DebugActiveProcess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\microsoft visual studio\VC6\MyProjects\DebugActiveProcess\DebugActiveProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\walied\AppData\Local\Temp\RSP118A.tmp" 
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSP118B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DebugActiveProcess.pdb" /debug /machine:I386 /out:"Debug/DebugActiveProcess.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\DebugActiveProcess.obj"
+]
+Creating command line "link.exe @C:\Users\walied\AppData\Local\Temp\RSP118B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DebugActiveProcess.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DebugActiveProcess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

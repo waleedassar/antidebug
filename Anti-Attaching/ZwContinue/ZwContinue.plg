@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ZwContinue - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSP3D2C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ZwContinue.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\microsoft visual studio\VC6\MyProjects\ZwContinue\ZwContinue.cpp"
+]
+Creating command line "cl.exe @C:\Users\walied\AppData\Local\Temp\RSP3D2C.tmp" 
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSP3D2D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ZwContinue.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\microsoft visual studio\VC6\MyProjects\ZwContinue\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\walied\AppData\Local\Temp\RSP3D2D.tmp" 
+Creating temporary file "C:\Users\walied\AppData\Local\Temp\RSP3D2E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ZwContinue.pdb" /debug /machine:I386 /out:"Debug/ZwContinue.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\ZwContinue.obj"
+]
+Creating command line "link.exe @C:\Users\walied\AppData\Local\Temp\RSP3D2E.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ZwContinue.cpp
+H:\microsoft visual studio\VC6\MyProjects\ZwContinue\ZwContinue.cpp(15) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+H:\microsoft visual studio\VC6\MyProjects\ZwContinue\ZwContinue.cpp(95) : warning C4305: '=' : truncation from 'const int' to 'char'
+H:\microsoft visual studio\VC6\MyProjects\ZwContinue\ZwContinue.cpp(95) : warning C4309: '=' : truncation of constant value
+Linking...
+
+
+
+<h3>Results</h3>
+ZwContinue.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
