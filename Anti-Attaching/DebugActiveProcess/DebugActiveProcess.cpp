@@ -50,6 +50,8 @@ int main(int argc, char* argv[])
    		 case EXIT_PROCESS_DEBUG_EVENT:
    			 ss=false;
    			 break;
+		 case EXCEPTION_DEBUG_EVENT:
+			 ContinueDebugEvent(DE.dwProcessId,DE.dwThreadId,DBG_EXCEPTION_NOT_HANDLED);
    		 }
    		 ContinueDebugEvent(DE.dwProcessId,DE.dwThreadId,DBG_CONTINUE);
    	 }
